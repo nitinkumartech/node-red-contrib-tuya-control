@@ -1,0 +1,24 @@
+{
+  "name": "red-contrib-tuya-control",
+  "version": "0.1.0",
+  "description": "Node-RED custom node to control Tuya devices",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinkumartech/node-red-contrib-tuya-control.git"
+  },
+  "author": "Nitin Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinkumartech/node-red-contrib-tuya-control/issues"
+  },
+  "homepage": "https://github.com/nitinkumartech/node-red-contrib-tuya-control#readme",
+  "node-red" : {
+    "nodes": {
+        "lower-case": "lower-case.js"
+    }
+}
+}
